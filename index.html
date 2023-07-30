@@ -10,7 +10,8 @@
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <script src="https://kit.fontawesome.com/de43a7a9f2.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
         <body>
 <!--Nav-->
@@ -47,23 +48,16 @@
     </div>
     </div>
     <!--</div>-->
-</nav>    
-<article class="container mt-3">
-    <div class="row d-none d-sm-block">
-       <div class="col-12">
-        <div class="alert alert-warning">
-            <strong>Sale Now On!</strong>We have got a sale on! Get a 12-month subscribe for 6!
-            <a href="/">See here for details!</a>
-           
-        </div>
-       </div>
-        
-    </div>
+</nav>  
+
     <!-- Callout -->
+    <div class="opaque-overlay"></div>
+    <div class="container-fluid c-container">
     <div class="row">
         <div class="col-12">
             <section class="callout jumbotron text-center">
-                <h1>The finest whiskeys delivered to your doorstep.</h1>
+                <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                <hr class="block-divider block-divider--orange">
                 <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
                     <s class="d-none d-sm-inline">€19.99</s>
                     <span class="d-inline d-sm-none"><br></span>
@@ -75,9 +69,11 @@
             </section>
         </div>
     </div>
+    </div>
     <!-- /.callout -->
-    <hr>
+    
     <!-- Quotes -->
+    <div class="container q-container">
     <section class="quotes">
         <div class="row">
             <div class="col-12 my-5">
@@ -114,10 +110,11 @@
                 </div>
             </div>
         </div>
-    </section>
+      </div>
     <!-- /.quotes -->
-    <hr>
+    
     <!-- Features -->
+    <div class="container f-container">
     <section class="features">
         <div class="row">
             <div class="col-12 my-5">
@@ -154,9 +151,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- /.features -->
         <!--table-->
+        <div class="container t-container">
             <section>
                 <h2 class="text-uppercase">Monthly favorites</h2>
                 <table class="table">
@@ -164,7 +162,7 @@
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>
-                            <th scope="col">Origin</th>
+                            <th scope="col">Production</th>
             
                         </tr>
                     </thead>
@@ -204,12 +202,12 @@
                 </table>
             
             
-            </section>
-            <hr>
+            </div>
+            
 
         
        <!--/ .table-->
-    </article>
+        
     <div class="modal" tabindex="-1" id="signUpModal">
         <div class="modal-dialog">
             <div class="modal-content">
