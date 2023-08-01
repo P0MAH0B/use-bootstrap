@@ -42,6 +42,10 @@ body {
 .f-container {}
 
 .t-container {}
+.table {
+    margin-top: 25px;
+
+}
 /* Page-headerds*/
 .page-header {
     margin-bottom: 0;
@@ -52,6 +56,10 @@ body {
 .page-header h2 {
     margin-top: 0;
     text-align: center;
+}
+.quotes .page-header  {
+    margin-bottom: 25px;
+
 }
 
 /* Block dividers */
@@ -159,4 +167,26 @@ body {
 .feature {
     text-align: center;
     margin-bottom: 40px;
+}
+.feature h3 i {
+    margin-bottom: 20px;    
+    line-height: 45px;
+    font-size: 45px;
+}
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;    
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+tr:hover,
+tr:active,
+tr:focus,
+tr:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
 }
